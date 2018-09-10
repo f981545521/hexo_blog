@@ -23,16 +23,36 @@ https://github.com/Haojen/hexo-theme-Claudia
 #### Linux环境部署
 
 1. 安装nodejs、npm
+ - （弃用）
 ```
 	[root@acyou ~]# yum install nodejs
 	[root@acyou ~]# yum install npm
 	[root@acyou ~]# node -v
 	[root@acyou ~]# npm
 ```
+ - （推荐）
+ ```
+	[root@acyou nodejs]# wget http://cdn.npm.taobao.org/dist/node/v10.8.0/node-v10.8.0-linux-x64.tar.xz
+	[root@acyou nodejs]# xz -d node-v10.8.0-linux-x64.tar.xz
+	[root@acyou nodejs]# tar -xvf node-v10.8.0-linux-x64.tar 
+	[root@acyou hexo_blog]# ln -s /youfang/nodejs/node-v10.8.0-linux-x64/bin/node /usr/local/bin/
+	[root@acyou hexo_blog]# ln -s /youfang/nodejs/node-v10.8.0-linux-x64/bin/npm /usr/local/bin/
+ ```
+> 如不生效请重启服务器
 2. 安装hexo
 ```
 	[root@acyou ~]# npm config set strict-ssl false
 	[root@acyou ~]# npm install -g hexo-cli
 ```
-
-
+3. 部署
+```
+	[root@acyou hexo_blog]# git clone https://github.com/f981545521/hexo_blog.git
+	[root@acyou hexo_blog]# cd hexo_blog/
+	[root@acyou hexo_blog]# git pull
+	[root@acyou hexo_blog]# npm install
+	
+	[root@acyou hexo_blog]# hexo generate
+	[root@acyou hexo_blog]# hexo server
+	-- 在后台运行
+	[root@acyou hexo_blog]# nohup hexo server &
+```

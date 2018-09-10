@@ -1,7 +1,7 @@
 ---
-title: JavaScript上传SDK
+title: Hexo建站指南
 date: 2018-06-15 13:46:30
-tags:
+tags: hexo
 ---
 ### Hexo建站 
 
@@ -19,4 +19,20 @@ PS G:\hexo> npm install
 
 #### 主题
 https://github.com/Haojen/hexo-theme-Claudia
+
+#### Linux环境部署
+
+1. 安装nodejs、npm
+```
+	[root@acyou ~]# yum install nodejs
+	[root@acyou ~]# yum install npm
+	[root@acyou ~]# node -v
+	[root@acyou ~]# npm
+```
+2. 安装hexo
+```
+	[root@acyou ~]# npm config set strict-ssl false
+	[root@acyou ~]# npm install -g hexo-cli
+```
+
 

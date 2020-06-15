@@ -31,7 +31,7 @@ https://github.com/Haojen/hexo-theme-Claudia
 	[root@acyou ~]# node -v
 	[root@acyou ~]# npm
 ```
- - （推荐）
+ - （推荐）注意用户名路径
  ```
 	[root@acyou nodejs]# wget http://cdn.npm.taobao.org/dist/node/v10.8.0/node-v10.8.0-linux-x64.tar.xz
 	[root@acyou nodejs]# xz -d node-v10.8.0-linux-x64.tar.xz
@@ -56,4 +56,8 @@ https://github.com/Haojen/hexo-theme-Claudia
 	[root@acyou hexo_blog]# hexo server
 	-- 在后台运行
 	[root@acyou hexo_blog]# nohup hexo server &
+    // npx hexo <command>
+
+   //链接至可执行文件：ln -s /root/apps/hexo_blog/node_modules/.bin/hexo /usr/local/bin/
+   //运行：nohup hexo server -p 80 &
 ```

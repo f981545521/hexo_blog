@@ -11,7 +11,7 @@ tags: hexo
 1. Node.js
 2. Git
 
-PS G:\hexo>  npm install -g hexo-cli
+PS G:\hexo> npm install -g hexo-cli
 PS G:\hexo> hexo init D:\hexo
 PS G:\hexo> npm install
 

@@ -1,9 +1,9 @@
-# Header
+# Header 右上方
 menu:
   主页: /
   推荐: /works
   关于: /about
-  标签: /tags
+#  标签: /tags
 
 rss: /atom.xml
 
@@ -49,7 +49,7 @@ disqus_url: https://haojen.disqus.com/embed.js
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: images/favicon.png
 #twitter:
 #google_plus:
 #fb_admins:

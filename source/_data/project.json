@@ -1,17 +1,17 @@
 {
-  "Apple 官网临摹": {
-    "title": "Apple 官网临摹",
-    "subTitle": "根据美版apple官网临摹",
-    "img_link": "http://o7bkkhiex.bkt.clouddn.com/item-apple.jpg",
-    "use" : ["jQuery"],
-    "link": "http://haojen.github.io/apple-linmo/",
-    "data":"2016.3",
-    "direction": "临摹 2016 年三月份 Apple 美版单页面。"
+  "数据库相关操作指令": {
+    "title": "数据库相关操作指令",
+    "subTitle": "数据库操作命令整理",
+    "img_link": "https://img-blog.csdnimg.cn/20200518125355905.jpg",
+    "use" : ["Mysql"],
+    "link": "https://blog.csdn.net/qq_45436528/article/details/106187710?utm_medium=distribute.pc_category.329928.nonecase&depth_1-utm_source=distribute.pc_category.329928.nonecase",
+    "data":"2020.6",
+    "direction": "数据库操作命令整理和学习。"
   },
    "Anisina (阿尼丝娜)": {
     "title": "Anisina",
     "subTitle": "基于 Hexo 制作的个人博客主题",
-    "img_link": "http://o7bkkhiex.bkt.clouddn.com/Anisina.png",
+    "img_link": "https://dss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1912094690.png",
     "use" : ["jQuery","Bootstrap","Node.js","EJS","Hexo","SASS"],
     "link": "http://haojen.github.io/",
     "data": "2016.5",

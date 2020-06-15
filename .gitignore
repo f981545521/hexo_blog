@@ -25,3 +25,8 @@ nbdist/
 ### log ###
 *.log
 *.log.gz
+
+### Nodejs ###
+node_modules/
+package-lock.json
+db.json

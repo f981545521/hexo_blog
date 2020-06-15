@@ -48,6 +48,7 @@ https://github.com/Haojen/hexo-theme-Claudia
 ```
 	[root@acyou ~]# npm config set strict-ssl false
 	[root@acyou ~]# npm install -g hexo-cli
+	[root@acyou ~]# npm install hexo-generator-search --save //搜索插件
 ```
 3. 部署
 ```

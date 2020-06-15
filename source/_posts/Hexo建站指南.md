@@ -1,7 +1,11 @@
 ---
 title: Hexo建站指南
 date: 2018-06-15 13:46:30
-tags: hexo
+updated: 2020-06-15 13:46:30
+tags: 
+- hexo
+categories:
+- [建站]
 ---
 ### Hexo建站 
 
